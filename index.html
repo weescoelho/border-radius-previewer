@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/styles.css">
+  <title>Border-radius Previewer</title>
+</head>
+
+<body>
+  <main class="container">
+    <h1 class="title">Border Radius Previewer</h1>
+    <section class="wrapper">
+      <div class="controls">
+        <div class="input">
+          <label class="inputLabel" for="borderRadius">
+            Border Radius All
+          </label>
+          <input type="range" name="borderRadius" min="0" max="100" value="0">
+          <span class="inputStat">0 px</span>
+        </div>
+        <div class="input">
+          <label class="inputLabel" for="borderTopLeftRadius">
+            Border Radius Left Top
+          </label>
+          <input type="range" name="borderTopLeftRadius" min="0" max="100" value="0">
+          <span class="inputStat">0 px</span>
+        </div>
+        <div class="input">
+          <label class="inputLabel" for="borderTopRightRadius">
+            Border Radius Right Top
+          </label>
+          <input type="range" name="borderTopRightRadius" min="0" max="100" value="0">
+          <span class="inputStat">0 px</span>
+        </div>
+        <div class="input">
+          <label class="inputLabel" for="borderBottomLeftRadius">
+            Border Radius Left Bottom
+          </label>
+          <input type="range" name="borderBottomLeftRadius" min="0" max="100" value="0">
+          <span class="inputStat">0 px</span>
+        </div>
+        <div class="input">
+          <label class="inputLabel" for="borderBottomRightRadius">
+            Border Radius Right Bottom
+          </label>
+          <input type="range" name="borderBottomRightRadius" min="0" max="100" value="0">
+          <span class="inputStat">0 px</span>
+        </div>
+      </div>
+      <div class="preview">
+        <div class="radiusPreviewer"></div>
+        <div class="cssCode"></div>
+      </div>
+    </section>
+  </main>
+  <script src="js/script.js"></script>
+</body>
+
+</html>
